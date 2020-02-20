@@ -8,10 +8,7 @@
 
 ## System setup
 
-<img src="https://github.com/shuruiz/pics/ubuntu.jpg" height="48" width="48"> 
-<img src="https://github.com/shuruiz/pics/gazebo.jpg" height="48" width="48"> 
-<img src="https://github.com/shuruiz/pics/cmake.jpg" height="48" width="110"> 
-<img src="https://github.com/shuruiz/pics/ros.svg" height="48" width="110"> 
+<img src="https://github.com/shuruiz/pics/blob/master/ubuntu.jpg" height="48" width="48"> <img src="https://github.com/shuruiz/pics/blob/master/gazebo.jpg" height="48" width="48"> <img src="https://github.com/shuruiz/pics/blob/master/cmake.jpg" height="48" width="110"> <img src="https://github.com/shuruiz/pics/blob/master/ros.svg" height="48" width="110"> 
 
 
  ><font size="3">Ubuntu 18.04 (Bionic Beaver) <br>
