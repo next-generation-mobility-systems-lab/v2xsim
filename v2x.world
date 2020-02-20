@@ -1,0 +1,988 @@
+<?xml version = "1.0" ?>
+<sdf version = "1.5">
+	<world name="default">
+		<include>
+			<uri>model://sun</uri>
+			<cast_shadows>1</cast_shadows>
+			<pose frame=''>0 0 10 0 -0 0</pose>
+			<diffuse>0.8 0.8 0.8 1</diffuse>
+			<specular>0.2 0.2 0.2 1</specular>
+			<attenuation>
+				<range>1000</range>
+				<constant>0.9</constant>
+				<linear>0.01</linear>
+				<quadratic>0.001</quadratic>
+			</attenuation>
+			<direction>-0.5 0.1 -0.9</direction>
+		</include>
+
+		<include>
+			<uri>model://ground_plane</uri>
+			<size>1000000000 1000000000</size>
+			<gazebo>
+				<link name='link'>
+			        <collision name='collision'>
+			          <geometry>
+			            <plane>
+			              <normal>0 0 1</normal>
+			              
+			            </plane>
+			          </geometry>
+				    </collision>
+				</link>
+			</gazebo>
+		</include>
+
+		<model name ="plane2">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>-98.8749 0.461089 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+		<model name ="plane3">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>99.9199 -0.879955 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+		<model name ="plane4">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>-10.511 97.9734 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+		<model name ="plane5">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>88.6075 85.0506 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+		<model name ="plane6">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>-109.523 99.9567 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+		<model name ="plane7">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>98.7645 -90.4949 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+			
+		<model name ="plane8">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>72.7409 149.441 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+
+
+		<model name ="plane8">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>2.59319 -96.1839 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+		<model name ="plane88">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>71.9664 220.953 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+
+			
+		<model name ="plane9">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>-91.8829 -87.4999 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+		<model name ="plane99">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>70.4227 255.681 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+
+			
+		<model name ="plane10">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>184.097 91.1615 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+
+		<model name ="plane11">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>198.928 -4.21041 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+
+		<model name ="plane12">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>-2.55668 226.224 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+
+		<model name ="plane13">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>-5.2252 272.758 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+		<model name ="plane133">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>27.1551 -68.8032 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+
+		<model name ="plane14">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>-5.2252 222.758 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+
+		<model name ="plane15">
+			<include>
+				<uri>model://ground_plane</uri>
+				<pose frame=''>-23.6963 181.225 0 0 -0 0</pose>
+				<size>1000000000 1000000000</size>
+			</include>
+		</model>
+
+
+
+
+		<model name="apartment1">
+			<include>
+				<uri>model://apartment</uri>
+				<pose frame=''>-29.623 32.9731 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="house1_0">
+			<include>
+				<uri>model://house_1</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>27.579 -25.6741 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="house1_1">
+			<include>
+				<uri>model://house_1</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>56.146 -26.8305 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="house1_2">
+			<include>
+				<uri>model://house_1</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>57.9809 -69.2785 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="house1_3">
+			<include>
+				<uri>model://house_1</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>90.5629 -68.3009 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="house1_4">
+			<include>
+				<uri>model://house_1</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>83.9245 -27.5738 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house3_4">
+			<include>
+				<uri>model://house_3</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>110.731 -25.3549 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house3_5">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>29.9998 18.471 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house1_51">
+			<include>
+				<uri>model://house_1</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>27.1551 -68.8032 0 0 -0 0</pose>
+			</include>
+		</model>
+
+
+
+		<model name="house2_52">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>79.7993 18.6017 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="house 2">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>55.2396 19.0076 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house 2 c1">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>38.4167 54.8827 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house 2 c2">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>64.7299 54.5904 0 0 -0 0</pose>
+			</include>
+		</model>
+
+
+		<model name="house2_clone">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>30.6762 85.1043 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house2_clone1">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>50.7689 82.6535 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house2_clone2">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>38.4167 54.8827 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house2_clone3">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>77.7772 85.0201 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house2_clone4">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>16.3371 234.437 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house2_clone5">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>71.9664 220.953 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="house2_clone66">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>39.6395 229.635 0 0 -0 0</pose>
+			</include>
+		</model>
+
+
+
+
+		<model name="house2_012">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>85.8995 -26.7937 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="house2_122">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>29.9998 18.471 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="house2_222">
+			<include>
+				<uri>model://house_2</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>79.7993 18.6017 0 0 -0 0</pose>
+			</include>
+		</model>
+
+
+
+		<model name="house3_0">
+			<include>
+				<uri>model://house_3</uri>
+				<scale>1.5 1.5 1.5</scale>
+				<pose frame=''>110.731 -25.3549 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="playground">
+			<include>
+				<uri>model://playground</uri>
+				
+				<pose frame=''>27.1551 -68.8032 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="school_0_">
+			<include>
+				<uri>model://school</uri>
+				<pose frame=''>80.1207 187.403 0 0 0 -1.55498</pose>
+			</include>
+		</model>
+
+		<model name="school_1_">
+			<include>
+				<uri>model://school</uri>
+				<pose frame=''>39.7721 168.841 0 0 -0 0</pose>
+			</include>
+		</model>
+
+
+	<!-- 	<model name="school_2">
+			<include>
+				<uri>model://school</uri>
+				<pose frame=''>28.709 143.378 0 0 -0 0</pose>
+			</include>
+		</model> -->
+		<model name="school_3_">
+			<include>
+				<uri>model://school</uri>
+				<pose frame=''>132.459 24.6168 0 0 -0 0</pose>
+			</include>
+		</model>
+	<!-- 	<model name="school_4">
+			<include>
+				<uri>model://school</uri>
+				<pose frame=''>75.0637 179.77 0 0 -0 0</pose>
+			</include>
+		</model> -->
+		<model name="school_5_">
+			<include>
+				<uri>model://school</uri>
+				<pose frame=''>26.8301 129.612 0 0 0 -3.12535</pose>
+			</include>
+		</model>
+
+	<!-- 	<model name="school_6">
+			<include>
+				<uri>model://school</uri>
+				<pose frame=''>39.7721 168.841 0 0 -0 0</pose>
+			</include>
+		</model> -->
+	<!-- 	<model name="school_7">
+			<include>
+				<uri>model://school</uri>
+				<pose frame=''>75.0637 179.77 0 0 -0 0</pose>
+			</include>
+		</model> -->
+	<!-- 	<model name="school_8">
+			<include>
+				<uri>model://school</uri>
+				<pose frame=''>132.459 24.6168 0 0 -0 0</pose>
+			</include>
+		</model> -->
+
+
+
+
+		<model name="post_office">
+			<include>
+				<uri>model://post_office</uri>
+				<pose frame=''>-19.4732 119.011 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="office_building">
+			<include>
+				<uri>model://office_building</uri>
+				<pose frame=''>-23.6963 181.225 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="office_building2">
+			<include>
+				<uri>model://office_building</uri>
+				<pose frame=''>-26.1348 237.322 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name="gas_station">
+			<include>
+				<uri>model://gas_station</uri>
+				<!-- <pose frame=''>138.421 36.4603 0 0 -0 0</pose> -->
+
+				<pose frame=''>-74.2961 82.6102 0 0 -0 0</pose>
+			</include>
+		</model>
+		<model name="fast_food">
+			<include>
+				<uri>model://fast_food</uri>
+				<pose frame=''>-29.5417 75.6202 0 0 -0 0</pose>
+			</include>
+		</model>
+
+		<model name='oak_tree'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-10.255 133.737 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree_clone'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-20.0955 97.1795 0 0 -0 0</pose>
+		    </include>
+		</model>
+	<!-- 	<model name='oak_tree_clone1'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-6.21787 91.5268 0 0 -0 0</pose>
+		    </include>
+		</model> -->
+		<model name='oak_tree_clone2'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-13.9997 132.001 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree_clone3'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-11.2168 147.539 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree_clone4'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>10.1337 147.691 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree_clone5'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>13.9236 89.6703 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree_clone6'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>13.9743 68.2632 0 0 -0 0</pose>
+		    </include>
+		</model>
+
+		<model name='oak_tree0'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>47.8475 121.607 0 0 -0 0</pose>
+		    </include>
+		</model>
+
+		<model name='oak_tree1'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-10.255 133.737 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree2'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-17.233 -3.12344 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree3'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-26.7818 -0.649414 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree4'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-36.8738 2.08616 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree5'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-17.2219 -17.1762 0 0 -0 0</pose>
+		    </include>
+		</model>
+
+		<model name='oak_tree6'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-19.7606 8.21115 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree7'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-26.8248 58.4752 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree8'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-33.6583 51.1433 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree9'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-33.9295 61.3787 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree10'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-41.4686 91.8276 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree11'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>51.2809 50.7015 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree12'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>45.1405 18.8139 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree13'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>69.2836 17.2562 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree14'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>66.1495 89.8243 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree15'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-37.564 -21.5907 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree16'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>42.9418 90.9557 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree17'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>20.4826 53.8549 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree18'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-13.3037 198.306 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree19'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-31.7202 117.062 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree20'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>43.3393 196.382 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree21'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>11.7915 198.359 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree22'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>14.4941 211.928 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree23'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>10.1839 217.091 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree24'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>69.936 242.468 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree25'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>14.9778 275.764 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree26'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>42.1479 214.064 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree27'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>66.0124 249.193 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree28'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>70.4227 255.681 0 0 -0 0</pose>
+		    </include>
+		</model>
+
+		<model name='oak_tree29'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-13.7922 208.085 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree30'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>28.7678 218.61 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree31'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>11.3105 302.03 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree32'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-13.1858 266.965 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree33'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-15.9836 284.399 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree34'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-46.8743 247.135 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree35'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-84.3048 245.865 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree36'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-48.2305 185.658 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree37'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-20.1361 272.868 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree38'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>54.8033 61.2503 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree39'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-47.4798 69.3134 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree40'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-45.2477 -35.6424 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree41'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-35.3695 70.3351 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree42'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-26.4647 -42.7149 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree43'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>82.3577 153.503 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree44'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>72.7409 149.441 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree45'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>70.7188 135.712 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree46'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>66 127.413 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree47'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>74.946 119.025 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree48'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-23.6963 -28.0337 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree49'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-36.2456 -9.53112 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree50'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-27.477 -17.035 0 0 -0 0</pose>
+		    </include>
+		</model>
+
+		<model name='oak_tree56'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-30.7432 -49.2267 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree51'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-42 -32 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree50'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-19.4031 -38.8036 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree52'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-17.3586 94.6403 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree53'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-31.4565 135.483 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree54'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>-13.5797 63.3864 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree55'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>10.1337 147.691 0 0 -0 0</pose>
+		    </include>
+		</model>
+
+		<model name='oak_tree57'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>13.9236 89.6703 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree58'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>13.9743 68.2632 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree59'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>22.3158 76.076 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='oak_tree60'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>13.2811 44.2946 0 0 -0 0</pose>
+		    </include>
+		</model>
+
+		<model name='oak_tree61'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>13.2811 44.2946 0 0 -0 0</pose>
+		    </include>
+		</model>
+
+		<model name='oak_tree62'>
+			<include>
+				<uri>model://oak_tree</uri>
+		        <pose frame=''>13.9743 68.2632 0 0 -0 0</pose>
+		    </include>
+		</model>
+	
+
+
+
+
+
+
+		<model name='osrf_first_office'>
+			<include>
+				<uri>model://osrf_first_office</uri>
+		        <pose frame=''>-52.4737 128.772 0 0 -0 0</pose>
+		    </include>
+		</model>
+		<model name='parking_garage'>
+			<include>
+				<uri>model://parking_garage</uri>
+		        <pose frame=''>-97.0313 200.194 0 0 -0 0</pose>
+		    </include>
+		</model>
+
+
+		<model name="prius">
+			<include>
+				<uri>model://prius_hybrid_sensors</uri>
+				<!-- <pose frame=''>-10 10 0 0 0 0</pose> -->
+				<pose frame=''>-2.82012 245.84 -0.017499 -9.6e-05 -2e-06 0.001571</pose>
+			</include>
+			<plugin name="vehicle_control" filename="libveh_plugin.so">
+				<velocity>15</velocity>
+			</plugin>
+		</model>
+
+		<model name="prius2">	
+			<include>
+				<uri>model://prius_hybrid_sensors</uri>
+				<pose frame=''>-2.55668 226.224 -0.017502 -9.7e-05 -3e-06 0.001534</pose>
+			</include>
+			<plugin name="vehicle2_control" filename="libveh2_plugin.so">
+				<velocity>15</velocity>
+			</plugin>
+		</model>
+
+		<model name="prius3">
+			<include>
+				<uri>model://prius_hybrid_sensors</uri>
+				<!-- <pose frame=''>10 7 0 0 0 0</pose> -->
+				<pose frame=''>-2.55668 272.758 -0.017493 -9.3e-05 -0 0.001513</pose>
+				<!-- <uri>model://prius_hybrid</uri> -->
+			</include>
+			<plugin name="vehicle3_control" filename="libveh3_plugin.so">
+				<velocity>10</velocity>
+			</plugin>
+		</model>
+
+		<model name="prius4">
+			<include>
+				<uri>model://prius_hybrid_sensors</uri>
+				<!-- <pose frame=''>15 -15 0 0 0 1.56176</pose> -->
+				<pose frame=''>-2.82012 295.84 -0.017499 -9.6e-05 -2e-06 0.001571</pose>
+			</include>
+			<plugin name="vehicle4_control" filename="libveh4_plugin.so">
+				<velocity>15</velocity>
+			</plugin>
+		</model>
+
+		<!-- <model name="prius5">
+			<include>
+				<uri>model://prius_hybrid</uri> -->
+ 				<!-- <pose frame=''>15 -15 0 0 0 1.56176</pose>
+ 		<pose frame=''>2.82978 80.4738 -0.017482 -8.2e-05 -1e-06 3.05133</pose>
+			</include> --> -->
+			<!-- <plugin name="vehicle4_control" filename="libveh4_plugin.so">
+				<velocity>10</velocity>
+			</plugin> -->
+
+
+	</world>
+</sdf>
