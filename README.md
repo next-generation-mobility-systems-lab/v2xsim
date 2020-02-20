@@ -62,7 +62,7 @@ Users can add, delete, or update models provided in the <code>v2x.world</code> f
 #### Customization with Plugins
 
 In the source file, plugin scripts (e.g., <code>veh_plugin.cc</code>) can be found at the working directory. Users can directly modify plugin code to customize the plugin given in this repo, so as to control vehicles in a different way. To test an algorithm, customizing plugins is more recommended, because algorithm details can be implemented under Gazebo namespace. 
-When customizing the plugin, the <code>CMakeLists.txt</code> should be updated accordingly with following CMake rules. To make the plugin be executable, users should use <code>CMake</code> to compile and link the Gazebo plugin to the model built the Gazebo engine. If you are not using <code>CMake 3.10.2</code>, you should make sure your existing <code>CMake</code> support C++11 standard.  Once built by <code>CMake</code>, you can find the executable plugin under <code>build</code> directory. The compiled plugin file will end with <code>lib*.so</code>, for example, <code>libveh_plugin.so</code>. In order to link compiled plugins to models when the simulator is running, add them to your <code>.world</code> file and link it to the corresponding model in <code>XML</code> format. 
+When customizing the plugin, the <code>CMakeLists.txt</code> should be updated accordingly with following CMake rules. To make the plugin be executable, users should use <code>CMake</code> to compile and link the Gazebo plugin to the model built the Gazebo engine. If you are not using <code>CMake 3.10.2</code>, you should make sure your existing <code>CMake</code> support C++11 standard.  Once built by <code>CMake</code>, you can find the executable plugin under <code>build</code> directory. The compiled plugin files will have names in <code>lib*.so</code> format, for example, <code>libveh_plugin.so</code>. In order to link compiled plugins to models when the simulator is running, add them to your <code>.world</code> file and link it to the corresponding model in <code>XML</code> format. 
 
 Plugins provided in this repo are developed to give a intelligent driving model demonstration. 
 
@@ -72,4 +72,7 @@ In the source file, customized APIs are provided. For example  <code>vel.cc</cod
 When customize API, the <code>CMakeLists.txt</code> should be updated accordingly by following CMake rules. 
 
 ## Demo
-Please check out the Demo video for detail regarding the performance of the simulator. 
+Please check out the Demo video for detail regarding the performance of the simulator (click to play on Youtube). 
+
+[![](http://img.youtube.com/vi/zYFRgLpN8L8/0.jpg )](http://www.youtube.com/watch?v=zYFRgLpN8L8 "V2X simulator")
+
