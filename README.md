@@ -72,7 +72,7 @@ In the source file, customized APIs are provided. For example,  <code>vel.cc</co
 When customizing API, the <code>CMakeLists.txt</code> should be updated accordingly by following CMake rules. 
 
 ## Demo
-Please check out the Demo video for detail regarding the performance of the simulator (click to play on Youtube). 
+Please check out the Demo video for detail regarding the performance of the simulator (click to play on Youtube: http://www.youtube.com/watch?v=zYFRgLpN8L8). 
 
 [![](http://img.youtube.com/vi/zYFRgLpN8L8/0.jpg )](http://www.youtube.com/watch?v=zYFRgLpN8L8 "V2X simulator")
 
